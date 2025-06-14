@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #371258;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #260c3c;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections (About, Contact) */
+div {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+div h2 {
+    color: #371258;
+}
+
+/* Profile Image */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;       
+    object-fit: cover;        
+    border: 4px solid white; 
+    margin-bottom: 15px;
+}
+ /* Email Buttonn */ 
+
+.email {
+  background: #b60101;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+
+/* social Media */
+
+.socialmedia {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  color: #1f1f1f;
+}
+
+.socialmedia a {
+  color: #b60101;          
+  text-decoration: none;    
+  margin: 0 6px;           
+
+
+}
+
+/* gallary */
+
+.projects {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: none;
+}
+
+
+
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.project img {
+  width: 250px;
+  height: 140px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(61, 61, 61, 0.742);
+  transition: transform 0.3s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.project p {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+
+
